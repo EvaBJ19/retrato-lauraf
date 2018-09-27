@@ -1,4 +1,7 @@
 size (500,500);
+void lauraf(int posx, int posy){
+  pushMatrix ();
+  translate (posx, posy);
 //pelo
 strokeWeight (1);
 line (100,10,200,10);
@@ -86,3 +89,5 @@ line (160,225,180,215);
 strokeWeight (30);
 point (110,150);
 point (180,150);
+popMatrix ();
+}
